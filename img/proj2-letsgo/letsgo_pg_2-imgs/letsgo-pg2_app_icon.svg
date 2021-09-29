@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>letsgo-pg2_app_icon</title>
+    <g id="Let'sGo---Case-Study" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="letsgo-pg2_app_icon">
+            <rect id="Rectangle" fill="#FFBD3E" x="0" y="0" width="26" height="26" rx="5.59"></rect>
+            <g id="App-Icon" transform="translate(6.933333, 3.466667)">
+                <ellipse id="Oval" fill-opacity="0.3" fill="#FFBD3E" style="mix-blend-mode: multiply;" cx="6.06666667" cy="17.5372549" rx="3.03333333" ry="1.09607843"></ellipse>
+                <path d="M6.06666667,0 C9.41719415,0 12.1333333,2.67291795 12.1333333,5.97012933 C12.1333333,8.16827025 10.1111111,12.0239788 6.06666667,17.5372549 C2.02222222,11.6915033 0,7.83579474 0,5.97012933 C0,2.67291795 2.71613918,0 6.06666667,0 Z M6.06666667,3.28823529 C4.54369963,3.28823529 3.30909091,4.51506287 3.30909091,6.02843137 C3.30909091,7.54179988 4.54369963,8.76862745 6.06666667,8.76862745 C7.5896337,8.76862745 8.82424242,7.54179988 8.82424242,6.02843137 C8.82424242,4.51506287 7.5896337,3.28823529 6.06666667,3.28823529 Z" id="Combined-Shape" fill="#FF5139"></path>
+            </g>
+        </g>
+    </g>
+</svg>
