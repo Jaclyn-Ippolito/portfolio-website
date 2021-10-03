@@ -100,6 +100,12 @@ a:active {
   color: #ffffff;
 }
 
+.button:focus:not(:active) {
+  opacity: 1.0;
+  background-color: #222222;
+  color: #ffffff;
+}
+
 .button.contact {
   border: 2px solid #ffffff;
 }
