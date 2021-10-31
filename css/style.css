@@ -130,6 +130,7 @@ a:active {
 
 #selected-works .row {
   padding-bottom: 25px;
+  padding-top: 25px;
   border-bottom: 1px solid #444444;
 }
 
@@ -573,7 +574,7 @@ footer {
 
 .my-img {
   display: block;
-  max-width: 500px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -599,7 +600,7 @@ footer {
   padding: 0 15px;
 }
 
-.f {
+.side {
   padding: 0 15px;
 }
 
@@ -673,11 +674,11 @@ footer {
     width: 40%;
   }
 
-  .col-lg-8 {
+  .col-md-8 {
     width: 70%;
   }
 
-  .col-lg-4 {
+  .col-md-4 {
     width: 30%;
   }
 
@@ -718,7 +719,7 @@ footer {
   .center-container-tools-skills {
     margin: auto;
     max-width: 800px;
-    /* padding: 0 15px; */
+    padding: 0 5px;
   }
 }
 
