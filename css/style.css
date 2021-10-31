@@ -134,10 +134,6 @@ a:active {
   border-bottom: 1px solid #444444;
 }
 
-#selected-works .berlin {
-  border-bottom: none;
-}
-
 #selected-works .one-track-mind {
   border-bottom: none;
   padding-bottom: unset;
@@ -150,7 +146,8 @@ a:active {
 }
 
 #selected-works h2 {
-  padding: 30px;
+  padding-top: 25px;
+  padding-bottom: 5px;
 }
 
 .center {
