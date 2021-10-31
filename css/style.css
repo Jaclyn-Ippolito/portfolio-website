@@ -140,7 +140,6 @@ a:active {
 #selected-works .one-track-mind {
   border-bottom: none;
   padding-bottom: unset;
-
 }
 
 .row::after {
@@ -420,7 +419,7 @@ footer {
 } */
 .about-text {
   position: relative;
-  top: 20px;
+  top: 10px;
   text-align: center;
 }
 
@@ -556,11 +555,6 @@ footer {
   top: -5px;
 }
 
-#skills-tools {
-  position: relative;
-  top: 20px;
-}
-
 .subhead1 {
   position: relative;
 }
@@ -577,16 +571,63 @@ footer {
   width: 100%;
 }
 
+.my-img {
+  display: block;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-width-letsgo {
+  max-width: 570px;
+}
+
+#text-width-jot {
+  max-width: 700px;
+}
+
+.lg-img {
+  padding-top: 15px;
+}
+
+.text-width-about {
+  max-width: 800px;
+}
+
+.center-container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+.f {
+  padding: 0 15px;
+}
+
+.tools-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
 @media only screen and (min-width: 595px) {
-  #languages {
+  /* #languages {
     position: relative;
     top: -60px;
-  }
+  } */
 }
 
 @media only screen and (min-width: 640px) {
   .container {
     display: inline-block;
+  }
+
+  .wireframe-header {
+    display: block;
   }
 
   .subhead1 {
@@ -608,7 +649,7 @@ footer {
     display: inline-block;
     text-align: unset;
     margin: unset;
-    padding: 20px 0 13px;
+    /* padding: 20px 0 13px; */
   }
 
   nav {
@@ -619,7 +660,7 @@ footer {
   }
 
   main {
-    padding: 235px 0 25px 0;
+    padding: 225px 0 25px 0;
   }
 
   .col-md-6 {
@@ -635,10 +676,6 @@ footer {
   }
 
   #about h3 {
-    margin-top: 0;
-  }
-
-  #wireframes h1 {
     margin-top: 0;
   }
 
@@ -661,6 +698,16 @@ footer {
     position: relative;
     top: -55px;
     left: 30px;
+  }
+
+  .col-skills {
+    width: 20%;
+    margin-left: 28%;
+    margin-right: 10%;
+  }
+
+  .col-tools {
+    width: 20%;
   }
 }
 
@@ -730,6 +777,16 @@ footer {
     top: 15px;
     box-sizing: border-box;
     width: 100%;
+  }
+
+  .col-skills {
+    width: 20%;
+    margin-left: 28%;
+    margin-right: 10%;
+  }
+
+  .col-tools {
+    width: 20%;
   }
 }
 
