@@ -146,8 +146,9 @@ a:active {
 }
 
 #selected-works h2 {
-  padding-top: 25px;
-  padding-bottom: 5px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: unset;
 }
 
 .center {
@@ -164,14 +165,14 @@ a:active {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
   padding: 30px;
 }
 
 header {
   background-color: #fff8f2;
   text-align: center;
-  padding: 10px 0;
+  /* padding: 10px 0 4px; */
   -webkit-box-shadow: 0px 3px 6px 0px rgba(206, 196, 187, 1);
   -moz-box-shadow: 0px 3px 6px 0px rgba(206, 196, 187, 1);
   box-shadow: 0px 3px 6px 0px rgba(206, 196, 187, 1);
@@ -180,24 +181,49 @@ header {
   z-index: 1;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
-
 nav>ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 63px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  /* padding: 24px 0 0; */
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 15px 0;
+  /* border-top: 1px solid rgba(255, 127, 80, 0.5); */
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 40px;
 }
 
 #hero {
@@ -213,7 +239,7 @@ nav>ul>li>a {
 }
 
 main {
-  padding: 275px 0 25px 0;
+  padding: 190px 0 25px 0;
 }
 
 .thanks {
@@ -584,6 +610,10 @@ footer {
   max-width: 700px;
 }
 
+.text-width-hero {
+  max-width: 768px;
+}
+
 .lg-img {
   padding-top: 15px;
 }
@@ -618,6 +648,19 @@ footer {
   justify-content: center;
 } */
 @media only screen and (min-width: 640px) {
+  .logo {
+    max-width: 250px;
+    padding: 30px;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
   .container {
     display: inline-block;
   }
@@ -655,8 +698,16 @@ footer {
     padding-top: 65px;
   }
 
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  nav>ul {
+    margin: 1em 0;
+  }
+
   main {
-    padding: 225px 0 25px 0;
+    padding: 190px 0 25px 0;
   }
 
   .col-md-6 {
