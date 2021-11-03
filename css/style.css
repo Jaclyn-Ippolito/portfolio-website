@@ -615,7 +615,11 @@ footer {
 }
 
 .lg-img {
-  padding-top: 15px;
+  padding-top: 25px;
+}
+
+.jot-img {
+  padding-top: 10px;
 }
 
 .text-width-about {
