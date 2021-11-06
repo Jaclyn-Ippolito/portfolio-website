@@ -84,7 +84,6 @@ a:active {
   display: inline-block;
   background-color: #222222;
   color: #ffffff;
-  /* needed to override the default link color */
   text-decoration: none;
   font-weight: 500;
   padding: 10px 30px 10px 30px;
@@ -99,7 +98,6 @@ a:active {
 .button:hover,
 .button:focus {
   opacity: 0.7;
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
   color: #ffffff;
 }
@@ -125,7 +123,6 @@ a:active {
 /* Layout styling-index */
 .row {
   margin-bottom: 10px;
-  /* 25px top and bottom, 0 left and right */
 }
 
 #selected-works .row {
@@ -172,7 +169,6 @@ a:active {
 header {
   background-color: #fff8f2;
   text-align: center;
-  /* padding: 10px 0 4px; */
   -webkit-box-shadow: 0px 3px 6px 0px rgba(206, 196, 187, 1);
   -moz-box-shadow: 0px 3px 6px 0px rgba(206, 196, 187, 1);
   box-shadow: 0px 3px 6px 0px rgba(206, 196, 187, 1);
@@ -212,14 +208,12 @@ nav>ul>li>a {
   display: block;
 }
 
-.navtoggle.responsive nav {
-  /* padding: 24px 0 0; */
-}
-
+/* .navtoggle.responsive nav { */
+/* padding: 24px 0 0; */
+/* } */
 .navtoggle.responsive li {
   display: block;
   padding: 15px 0;
-  /* border-top: 1px solid rgba(255, 127, 80, 0.5); */
 }
 
 .navtoggle.responsive li:last-child {
@@ -409,7 +403,6 @@ footer {
 
 .weights>ul>li {
   display: inline-block;
-  /* padding: 10px; */
 }
 
 .semibold.space {
@@ -440,9 +433,6 @@ footer {
   top: -20px;
 }
 
-/* .caption {
-  padding-left: 50px;
-} */
 .about-text {
   position: relative;
   top: 10px;
@@ -525,18 +515,12 @@ footer {
   flex-wrap: wrap;
 }
 
-.berlin {
-  display: flex;
-  flex-direction: column;
-}
-
 .one-track-mind {
   display: flex;
   flex-direction: column;
 }
 
 .flowers {
-  /* margin: 3%; */
   position: relative;
 }
 
@@ -545,9 +529,6 @@ footer {
   top: -15px;
 }
 
-/* .txtover picture {
-  width: 100%;
-} */
 .txtover {
   position: relative;
 }
@@ -698,7 +679,6 @@ footer {
     display: inline-block;
     text-align: unset;
     margin: unset;
-    /* padding: 20px 0 13px; */
   }
 
   nav {
@@ -749,11 +729,6 @@ footer {
     align-items: center;
   }
 
-  .berlin {
-    display: flex;
-    flex-direction: row;
-  }
-
   .one-track-mind {
     display: flex;
     flex-direction: row;
@@ -765,15 +740,6 @@ footer {
     left: 30px;
   }
 
-  /* .col-skills {
-    width: 40%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .col-tools {
-    width: 30%;
-  } */
   .center-container-tools-skills {
     margin: auto;
     max-width: 800px;
@@ -819,28 +785,24 @@ footer {
 
     #selected-works {
       max-width: 1200px;
-      /* background-color: blue; */
       margin-left: auto;
       margin-right: auto;
     }
 
     #about-me {
       max-width: 1200px;
-      /* background-color: blue; */
       margin-left: auto;
       margin-right: auto;
     }
 
     #letsgo-case-study {
       max-width: 1200px;
-      /* background-color: blue; */
       margin-left: auto;
       margin-right: auto;
     }
 
     #jot-case-study {
       max-width: 1200px;
-      /* background-color: blue; */
       margin-left: auto;
       margin-right: auto;
     }
@@ -864,28 +826,24 @@ footer {
   @media only screen and (min-width: 1440px) {
     #selected-works {
       max-width: 1200px;
-      /* background-color: green; */
       margin-left: auto;
       margin-right: auto;
     }
 
     #about-me {
       max-width: 1200px;
-      /* background-color: green; */
       margin-left: auto;
       margin-right: auto;
     }
 
     #letsgo-case-study {
       max-width: 1200px;
-      /* background-color: green; */
       margin-left: auto;
       margin-right: auto;
     }
 
     #jot-case-study {
       max-width: 1200px;
-      /* background-color: green; */
       margin-left: auto;
       margin-right: auto;
     }
@@ -894,28 +852,24 @@ footer {
   @media only screen and (min-width: 1920px) {
     #selected-works {
       max-width: 1200px;
-      /* background-color: red; */
       margin-left: auto;
       margin-right: auto;
     }
 
     #about-me {
       max-width: 1200px;
-      /* background-color: red; */
       margin-left: auto;
       margin-right: auto;
     }
 
     #letsgo-case-study {
       max-width: 1200px;
-      /* background-color: red; */
       margin-left: auto;
       margin-right: auto;
     }
 
     #jot-case-study {
       max-width: 1200px;
-      /* background-color: red; */
       margin-left: auto;
       margin-right: auto;
     }
