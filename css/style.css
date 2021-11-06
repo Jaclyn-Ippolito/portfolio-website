@@ -648,6 +648,10 @@ footer {
   top: 15px;
 }
 
+.underline-tab {
+  text-decoration-line: underline;
+}
+
 /* .container-about {
   display: flex;
   flex-direction: column;
