@@ -757,171 +757,171 @@ footer {
   .thanks {
     font-size: 30px;
   }
+}
 
-  @media only screen and (min-width: 1024px) {
-    * {
-      box-sizing: border-box;
-    }
-
-    .col-lg-6 {
-      width: 50%;
-    }
-
-    .col-lg-7 {
-      width: 60%;
-    }
-
-    .col-lg-5 {
-      width: 40%;
-    }
-
-    .col-lg-8 {
-      width: 70%;
-    }
-
-    .col-lg-4 {
-      width: 30%;
-    }
-
-    #selected-works {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #about-me {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #letsgo-case-study {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #jot-case-study {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .subhead1 {
-      position: relative;
-    }
-
-    .subhead1 h4 {
-      font-size: 34px;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      padding-left: 120px;
-      top: 15px;
-      box-sizing: border-box;
-      width: 100%;
-    }
+@media only screen and (min-width: 1024px) {
+  * {
+    box-sizing: border-box;
   }
 
-  @media only screen and (min-width: 1440px) {
-    #selected-works {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #about-me {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #letsgo-case-study {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #jot-case-study {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .col-lg-6 {
+    width: 50%;
   }
 
-  @media only screen and (min-width: 1920px) {
-    #selected-works {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #about-me {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #letsgo-case-study {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #jot-case-study {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .col-lg-7 {
+    width: 60%;
   }
 
-  [class*="col-"] {
-    float: left;
-    padding: 10px;
+  .col-lg-5 {
+    width: 40%;
   }
 
-  .one-track-mind-illus {
+  .col-lg-8 {
+    width: 70%;
+  }
+
+  .col-lg-4 {
+    width: 30%;
+  }
+
+  #selected-works {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about-me {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #letsgo-case-study {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #jot-case-study {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .subhead1 {
+    position: relative;
+  }
+
+  .subhead1 h4 {
+    font-size: 34px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 120px;
+    top: 15px;
+    box-sizing: border-box;
     width: 100%;
-    max-width: 100%;
-    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #selected-works {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  @keyframes color-change {
-    0% {
-      fill: #C7E543;
-    }
-
-    25% {
-      fill: #F5A405;
-    }
-
-    50% {
-      fill: #F427A7;
-    }
-
-    75% {
-      fill: #A127AE;
-    }
-
-    100% {
-      fill: #05CCF4;
-    }
+  #about-me {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .tennis-ball {
-    animation: 3s color-change infinite alternate linear;
+  #letsgo-case-study {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  @keyframes bubble-move {
-    from {
-      transform: translate(100px, 0px);
-    }
+  #jot-case-study {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
-    to {
-      transform: translate(260px, 0px);
-    }
+@media only screen and (min-width: 1920px) {
+  #selected-works {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .thought-bubble {
-    animation: 1s bubble-move infinite alternate linear;
+  #about-me {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  #letsgo-case-study {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #jot-case-study {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+.one-track-mind-illus {
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes color-change {
+  0% {
+    fill: #C7E543;
+  }
+
+  25% {
+    fill: #F5A405;
+  }
+
+  50% {
+    fill: #F427A7;
+  }
+
+  75% {
+    fill: #A127AE;
+  }
+
+  100% {
+    fill: #05CCF4;
+  }
+}
+
+.tennis-ball {
+  animation: 3s color-change infinite alternate linear;
+}
+
+@keyframes bubble-move {
+  from {
+    transform: translate(100px, 0px);
+  }
+
+  to {
+    transform: translate(260px, 0px);
+  }
+}
+
+.thought-bubble {
+  animation: 1s bubble-move infinite alternate linear;
+}
