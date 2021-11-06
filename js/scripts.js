@@ -1,7 +1,5 @@
 console.log("Hey There! Welcome to My Portfolio Site")
 
-let currentPage = window.location.href;
-
 function menuToggle() {
   var x = document.getElementById('myNavtoggle');
   if (x.className === 'navtoggle') {
@@ -9,17 +7,12 @@ function menuToggle() {
   } else {
     x.className = 'navtoggle';
   }
-  getPage();
+  setTimeout(() => {getPage()}, 900);
 }
 
 function getPage() {
-  currentPage = window.location.href;
-  $('#work-tab').removeClass("underline-tab")
-  $('#about-tab').removeClass("underline-tab")
-  $('#contact-tab').addClass("underline-tab")
-}
+  let currentPage = window.location.href;
 
-$(document).ready(function() {
   let pageArray = currentPage.split("/");
   let pageArrayLength = pageArray.length;
   let targetPage = pageArray[pageArrayLength - 1];
@@ -30,6 +23,30 @@ $(document).ready(function() {
   if (targetPage === "about.html") {
     $('#about-tab').addClass("underline-tab")
   }
+  if (targetPage === "about.html#contact") {
+    $('#contact-tab').addClass("underline-tab")
+    $('#about-tab').removeClass("underline-tab")
+    $('#work-tab').removeClass("underline-tab")
+  }
+  if (targetPage === "index.html#contact") {
+    $('#contact-tab').addClass("underline-tab")
+    $('#about-tab').removeClass("underline-tab")
+    $('#work-tab').removeClass("underline-tab")
+  }
+  if (targetPage === "letsgo.html#contact") {
+    $('#contact-tab').addClass("underline-tab")
+    $('#about-tab').removeClass("underline-tab")
+    $('#work-tab').removeClass("underline-tab")
+  }
+  if (targetPage === "jot.html#contact") {
+    $('#contact-tab').addClass("underline-tab")
+    $('#about-tab').removeClass("underline-tab")
+    $('#work-tab').removeClass("underline-tab")
+  }
+}
+
+$(document).ready(function() {
+  getPage();
 
   $("a").on('click', function(event) {
 
