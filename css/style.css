@@ -282,7 +282,7 @@ footer {
 }
 
 .socials>ul>li>a {
-  padding: 0 10px
+  padding: 0 15px
 }
 
 .container {
@@ -395,6 +395,7 @@ footer {
 .icons {
   position: relative;
   left: -10px;
+  max-width: 300px;
 }
 
 .weights>ul {
@@ -450,6 +451,7 @@ footer {
 #colors-group {
   position: relative;
   top: -50px;
+  max-width: 300px;
 }
 
 #logo-icon {
@@ -776,6 +778,14 @@ footer {
     margin: auto;
     max-width: 800px;
     padding: 0 5px;
+  }
+
+  #colors-group {
+    max-width: 100%;
+  }
+
+  .icons {
+    max-width: 100%;
   }
 }
 
