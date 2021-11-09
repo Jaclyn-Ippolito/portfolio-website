@@ -1,7 +1,10 @@
 console.log("Hey There! Welcome to My Portfolio Site")
+/* global $ */
+/* eslint {no-undef: "error"} */
 
 function menuToggle() {
   var x = document.getElementById('myNavtoggle');
+/* eslint-disable-next-line no-unused-vars */
   if (x.className === 'navtoggle') {
     x.className += ' responsive';
   } else {
