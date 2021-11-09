@@ -650,6 +650,10 @@ footer {
   text-decoration-line: underline;
 }
 
+.wireframe-header {
+  padding-top: 20px;
+}
+
 @media only screen and (min-width: 640px) {
   .logo {
     max-width: 250px;
