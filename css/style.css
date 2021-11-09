@@ -677,6 +677,7 @@ footer {
 
   .wireframe-header {
     display: block;
+    padding-top: unset;
   }
 
   .subhead1 h4 {
