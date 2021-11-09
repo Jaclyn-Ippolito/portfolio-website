@@ -20,8 +20,11 @@ function getPage() {
   let pageArrayLength = pageArray.length;
   let targetPage = pageArray[pageArrayLength - 1];
 
-  if (targetPage === "index.html") {
-    $('#work-tab').addClass("underline-tab")
+  const pageArray = currentPage.split('/')
+  const pageArrayLength = pageArray.length
+  const targetPage = pageArray[pageArrayLength - 1]
+  if (targetPage === '' || targetPage === 'index.html') {
+    $('#work-tab').addClass('underline-tab')
   }
   if (targetPage === "about.html") {
     $('#about-tab').addClass("underline-tab")
