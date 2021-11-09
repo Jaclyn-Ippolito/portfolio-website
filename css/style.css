@@ -352,7 +352,7 @@ footer {
   display: inline;
 }
 
-.object {
+.highlight {
   position: relative;
   top: 1px;
   background: rgba(255, 189, 62, 0.5);
